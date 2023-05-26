@@ -1,0 +1,61 @@
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Light-gray: hsl(212, 45%, 89%);
+  --Grayish-blue: hsl(220, 15%, 55%);
+  --Dark-blue: hsl(218, 44%, 22%);
+
+  --Font-size-paragraph: 15px;
+  --font-weight-regular: 400;
+  --font-weigtht-bold: 700;
+  --Family: [Outfit](https://fonts.google.com/specimen/Outfit);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  background-color: var(--Light-gray);
+  display: grid;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 5px;
+}
+
+.main-container {
+  background-color: var(--White);
+  padding: 15px;
+  border-radius: 15px;
+  max-width: 375px;
+}
+
+img {
+  width: 240px;
+  border-radius: 10px;
+}
+
+.text {
+  height: 150px;
+  text-align: center;
+  padding: 2px;
+}
+
+.head {
+  margin-top: 15px;
+  font-size: 20px;
+  opacity: 0.9;
+  font-weight: var(--font-weigtht-bold);
+}
+
+p {
+  margin-top: 15px;
+  font-size: var(--Font-size-paragraph);
+  text-align: center;
+  opacity: 0.7;
+}
+
